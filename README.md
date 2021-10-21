@@ -4,6 +4,6 @@
 Consume Destination in RAP - [SAP Tutorial](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 
 ## Restfull ABAP Hands-On Tutorial Series | FullStack Development with RAP
-<img src="https://github.com/developedbysom/RAP-Extension/blob/extension/image/1.png" alt="alt text" width="500" height="300">
+<img src="https://github.com/developedbysom/RAP-Extension/blob/master/image/1.png" alt="alt text" width="500" height="300">
 
 > [Youtube Playlist 21 Videos](https://youtube.com/playlist?list=PL54JdsBCvI0kbZWvg39KzrIDCG5jy_rEo)
