@@ -54,6 +54,19 @@ define view entity zi_so_items
 
       @Search.defaultSearchElement: true
       @Search.fuzzinessThreshold: 0.8
+      @Consumption.valueHelpDefinition: [{
+               entity: {
+               name: 'ZCE_PRODUCTS_ES5', element: 'Product'
+               } ,
+               additionalBinding: [{  element: 'ProductCategory' ,
+                                      localElement: 'category',
+                                      usage: #RESULT  },
+                                      {
+                                      element: 'Supplier' ,
+                                      localElement: 'suppilier',
+                                      usage: #FILTER
+                                      }]
+            }]
         item.material,
 
       @UI:{
@@ -68,6 +81,12 @@ define view entity zi_so_items
             fieldGroup: [{qualifier: 'item1',position: 32,importance: #HIGH }]
             }
       @EndUserText:{label: 'Supplier'}
+      @Consumption.valueHelpDefinition: [{
+         entity:{
+         name:'ZCE_PRODUCTS_ES5',
+         element:'Supplier'
+         }
+      }]
         item.suppilier,
 
       @UI: {
