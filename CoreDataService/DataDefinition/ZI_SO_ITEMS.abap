@@ -11,9 +11,9 @@
 
 @ObjectModel:{semanticKey: ['so_id', 'so_item']}
 
-define view entity zi_so_item
-  as select from zt_so_item as item
-  association to parent ZI_SO_HDR as _hdr on $projection.so_id = _hdr.so_id
+define view entity zi_so_items
+  as select from ztso_item as item
+  association to parent ZI_SO_HEADER as _hdr on $projection.so_id = _hdr.so_id
 {
 
       @UI.facet: [

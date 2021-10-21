@@ -3,7 +3,7 @@
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
 @AbapCatalog.dataMaintenance : #ALLOWED
-define table ZT_SO_HDR {
+define table ZTSO_HDR {
   key client : mandt not null;
   key so_id  : abap.numc(6) not null;
   sales_org  : abap.numc(4);

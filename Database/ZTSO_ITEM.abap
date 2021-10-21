@@ -3,7 +3,7 @@
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
 @AbapCatalog.dataMaintenance : #ALLOWED
-define table zt_so_item {
+define table ztso_item {
   key client    : mandt not null;
   key so_id     : abap.numc(6) not null;
   key so_item   : abap.numc(2) not null;

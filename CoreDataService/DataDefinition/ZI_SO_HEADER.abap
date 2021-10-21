@@ -11,9 +11,9 @@ title:{type: #STANDARD,value: 'so_id'}
 
 @ObjectModel:{semanticKey: ['so_id'],representativeKey: 'so_id'}
 
-define root view entity ZI_SO_HDR
-  as select from zt_so_hdr as hdr
-  composition [0..*] of zi_so_item as _item
+define root view entity ZI_SO_HEADER
+  as select from ztso_hdr as hdr
+  composition [0..*] of zi_so_items as _item
 {
       @UI.facet: [
               {
