@@ -1,6 +1,6 @@
 # RAP-Extension- Consume external API in RESTful ABAP Programming Model
 
-> External API Details: [URL](https://sapes5.sapdevcenter.com/sap/opu/odata/sap/ZPDCDS_SRV/) |
+> External API Details: [URL](https://sapes5.sapdevcenter.com/sap/opu/odata/sap/ZPDCDS_SRV/SEPMRA_I_Product_E) |
 Consume Destination in RAP - [SAP Tutorial](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 
 ## Restfull ABAP Hands-On Tutorial Series | FullStack Development with RAP
